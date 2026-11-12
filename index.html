@@ -12,7 +12,12 @@
     img{border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;display:block}
     a{text-decoration:none}
     .email-shell{width:640px;max-width:640px}
+    .mobile-hero{display:none;}
     @media screen and (max-width:640px){
+      .desktop-hero{display:none!important;}
+      .mobile-hero{display:table!important;width:100%!important;}
+      .mobile-tagline{ text-align:right!important; }
+      .mobile-headline,.mobile-copy{text-align:center!important;width:100%!important;}
       .email-shell{width:100%!important;max-width:100%!important}
       .outer-pad{padding-left:18px!important;padding-right:18px!important}
       .hero-title{font-size:31px!important;line-height:1.04!important}
@@ -38,17 +43,58 @@
 
         <!-- ШАПКА И ПЕРВЫЙ ЭКРАН -->
         <tr><td class="outer-pad" style="padding:3px 28px 8px;background:#fbf9f2;">
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+          <div class="desktop-hero">
+                  <tr><td class="outer-pad" style="padding:3px 28px 8px;background:#fbf9f2;">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td valign="top" width="53%" style="width:53%;">
+                          <img src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/ecocane-logo.png" width="180" alt="eCo-Cane.GROUP" style="display:block;width:180px;max-width:100%;height:auto;position:relative;top:-10px;margin-left:-18px;">
+                          <div style="padding-top:5px;font-family:Arial,Helvetica,sans-serif;color:#183e27;font-size:10px;line-height:14px;letter-spacing:1.5px;text-transform:uppercase;">Экологичная посуда и упаковка<br>для вашего бизнеса</div>
+                          <table role="presentation" width="90" cellpadding="0" cellspacing="0" border="0" style="margin-top:11px;"><tr><td height="2" style="height:2px;background:#39833e;font-size:0;line-height:0;">&nbsp;</td></tr></table>
+                          <div class="hero-title" style="padding-top:14px;font-family:Arial,Helvetica,sans-serif;color:#0d5129;font-size:30px;line-height:32px;font-weight:bold;letter-spacing:-1px;"><span class="hero-highlight" style="display:inline-block;padding:0;background-color:transparent;border:0;border-radius:0;color:#ffdf4d;-webkit-text-stroke:7.5px #0d5129;paint-order:stroke fill;text-shadow:2.5px 0 #0d5129,-2.5px 0 #0d5129,0 2.5px #0d5129,0 -2.5px #0d5129;font-size:41px;line-height:1.06;font-weight:700;">Самые низкие оптовые цены</span> Надёжные поставки для вашего бизнеса.</div>
+                          <div class="hero-copy" style="padding-top:8px;font-family:Arial,Helvetica,sans-serif;color:#17271e;font-size:15px;line-height:20px;">eCoCane — оптовый поставщик экологичной посуды и упаковки. Предлагаем выгодные условия закупки, широкий ассортимент и стабильные поставки для вашего бизнеса.</div>
+                        </td>
+                        <td valign="middle" align="right" width="47%" style="width:47%;padding-left:8px;">
+                          <img src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/hero-products.jpg" width="270" alt="Посуда и упаковка из растительных материалов" style="display:block;width:270px;max-width:100%;height:auto;border-radius:16px;">
+                        </td>
+                      </tr>
+                    </table>
+                  </td></tr>
+          </div>
+          <table role="presentation" class="mobile-hero" width="100%" cellpadding="0" cellspacing="0" border="0" style="display:none;width:100%;">
             <tr>
-              <td valign="top" width="53%" style="width:53%;">
-                <img src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/ecocane-logo.png" width="180" alt="eCo-Cane.GROUP" style="display:block;width:180px;max-width:100%;height:auto;position:relative;top:-10px;margin-left:-18px;">
-                <div style="padding-top:5px;font-family:Arial,Helvetica,sans-serif;color:#183e27;font-size:10px;line-height:14px;letter-spacing:1.5px;text-transform:uppercase;">Экологичная посуда и упаковка<br>для вашего бизнеса</div>
-                <table role="presentation" width="90" cellpadding="0" cellspacing="0" border="0" style="margin-top:11px;"><tr><td height="2" style="height:2px;background:#39833e;font-size:0;line-height:0;">&nbsp;</td></tr></table>
-                <div class="hero-title" style="padding-top:14px;font-family:Arial,Helvetica,sans-serif;color:#0d5129;font-size:30px;line-height:32px;font-weight:bold;letter-spacing:-1px;"><span class="hero-highlight" style="display:inline-block;padding:0;background-color:transparent;border:0;border-radius:0;color:#ffdf4d;-webkit-text-stroke:7.5px #0d5129;paint-order:stroke fill;text-shadow:2.5px 0 #0d5129,-2.5px 0 #0d5129,0 2.5px #0d5129,0 -2.5px #0d5129;font-size:41px;line-height:1.06;font-weight:700;">Самые низкие оптовые цены</span> Надёжные поставки для вашего бизнеса.</div>
-                <div class="hero-copy" style="padding-top:8px;font-family:Arial,Helvetica,sans-serif;color:#17271e;font-size:15px;line-height:20px;">eCoCane — оптовый поставщик экологичной посуды и упаковки. Предлагаем выгодные условия закупки, широкий ассортимент и стабильные поставки для вашего бизнеса.</div>
+              <td colspan="2" align="left" style="padding:0;">
+                <img src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/ecocane-logo.png" width="180" alt="eCo-Cane.GROUP" style="display:block;width:160px;max-width:100%;height:auto;position:relative;top:-7px;margin-left:-10px;">
               </td>
-              <td valign="middle" align="right" width="47%" style="width:47%;padding-left:8px;">
-                <img src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/hero-products.jpg" width="270" alt="Посуда и упаковка из растительных материалов" style="display:block;width:270px;max-width:100%;height:auto;border-radius:16px;">
+            </tr>
+            <tr>
+              <td colspan="2" align="right" class="mobile-tagline" style="padding:0 0 7px;font-family:Arial,Helvetica,sans-serif;color:#183e27;font-size:10px;line-height:14px;letter-spacing:1.5px;text-transform:uppercase;text-align:right;">
+                Экологичная посуда и упаковка<br>для вашего бизнеса
+              </td>
+            </tr>
+            <tr>
+              <td width="52%" valign="middle" align="center" style="width:52%;padding:0 5px 0 0;">
+                <div class="mobile-highlight" style="font-family:Arial,Helvetica,sans-serif;color:#ffdf4d;-webkit-text-stroke:5px #0d5129;paint-order:stroke fill;font-size:30px;line-height:1.05;font-weight:900;text-align:left;">
+                  Самые низкие оптовые цены
+                </div>
+              </td>
+              <td width="48%" valign="middle" align="right" style="width:48%;padding:0;">
+                <img class="mobile-hero-image" src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/hero-products.jpg" width="270" alt="Посуда и упаковка из растительных материалов" style="display:block;width:100%;max-width:270px;height:auto;border-radius:16px;">
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" class="mobile-headline" style="padding:13px 0 0;font-family:Arial,Helvetica,sans-serif;color:#0d5129;font-size:27px;line-height:1.08;font-weight:bold;letter-spacing:-.5px;text-align:center;">
+                Надёжные поставки для вашего бизнеса.
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" class="mobile-copy" style="padding:8px 0 0;font-family:Arial,Helvetica,sans-serif;color:#17271e;font-size:15px;line-height:1.35;text-align:center;">
+                eCoCane — оптовый поставщик экологичной посуды и упаковки. Предлагаем выгодные условия закупки, широкий ассортимент и стабильные поставки для вашего бизнеса.
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="padding:11px 0 0;">
+                <table role="presentation" width="90" cellpadding="0" cellspacing="0" border="0" style="margin:0 auto;"><tr><td height="2" style="height:2px;background:#39833e;font-size:0;line-height:0;">&nbsp;</td></tr></table>
               </td>
             </tr>
           </table>
