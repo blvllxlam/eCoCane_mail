@@ -29,6 +29,7 @@
             .hero-text-cell{display:table-cell!important;vertical-align:middle!important;width:52%!important;padding:0 6px 0 7px!important;background:#0d5129!important;border-radius:16px!important;}
             .hero-image-cell{display:table-cell!important;vertical-align:middle!important;width:48%!important;padding:0!important;text-align:right!important;}
             .hero-products{width:100%!important;max-width:230px!important;height:auto!important;margin:0!important;}
+            .hero-image-crop{height:auto!important;overflow:visible!important;margin-top:0!important;}
             .hero-title{display:table!important;width:100%!important;height:100%!important;box-sizing:border-box!important;padding-top:0!important;font-size:18px!important;line-height:1.12!important;text-align:left!important;letter-spacing:-.3px!important;}
             .hero-highlight{display:inline-block!important;vertical-align:middle!important;box-sizing:border-box!important;background:transparent!important;border-radius:0!important;font-size:22px!important;line-height:1.12!important;padding:6px 4px!important;-webkit-text-stroke:0!important;font-weight:900!important;}
             .hero-tagline{display:none!important;}
@@ -86,7 +87,7 @@
                 </div>
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                   <tr>
-                    <td class="hero-text-cell" valign="top" width="53%" style="width:53%;">
+                    <td class="hero-text-cell" valign="top" width="53%" style="width:53%;padding-bottom:20px;">
                       <img class="desktop-logo" 
                         src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/ecocane-logo.png" 
                         width="180" 
@@ -145,16 +146,17 @@
                           </td>
                         </tr>
                       </table>
-                      <img class="hero-products" 
-                      src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/hero-products.jpg" 
-                      width="270" 
-                      alt="Посуда и упаковка из растительных материалов" 
-                      style="display:block;
-                      width:270px;
-                      max-width:100%;
-                      height:auto;
-                      border-radius:16px;
-                      margin-top:50px;">
+                      <div class="hero-image-crop" style="height:250px;overflow:hidden;margin-top:50px;">
+                        <img class="hero-products" 
+                        src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/hero-products.jpg" 
+                        width="270" 
+                        alt="Посуда и упаковка из растительных материалов" 
+                        style="display:block;
+                        width:270px;
+                        max-width:100%;
+                        height:auto;
+                        border-radius:16px;">
+                      </div>
                     </td>
                   </tr>
                 </table>
