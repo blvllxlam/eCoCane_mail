@@ -20,14 +20,14 @@
             .desktop-slogan{display:none!important;}
             .desktop-slogan-rule{display:none!important;}
 
-            .mobile-header{display:block!important;padding:8px 0 14px!important;}
+            .mobile-header{display:block!important;padding:8px 0 14px!important;text-align:center!important;}
             .mobile-header table{width:100%!important;}
-            .mobile-header-logo{display:block!important;width:145px!important;max-width:100%!important;height:auto!important;margin:0!important;}
-            .mobile-header-slogan{display:block!important;text-align:left!important;padding:0 0 0 10px!important;font-family:Arial,Helvetica,sans-serif;color:#183e27;font-size:10px;line-height:14px;letter-spacing:1px;text-transform:uppercase;}
-            .mobile-header-rule{display:none!important;}
+            .mobile-header-logo{display:block!important;width:145px!important;max-width:100%!important;height:auto!important;margin:0 auto!important;}
+            .mobile-header-slogan{display:block!important;text-align:center!important;padding:8px 0 0!important;font-family:Arial,Helvetica,sans-serif;color:#183e27;font-size:10px;line-height:14px;letter-spacing:1px;text-transform:uppercase;}
+            .mobile-header-rule{display:table!important;width:90px!important;margin:10px auto 0!important;}
             .desktop-logo,.mobile-slogan,.mobile-slogan-rule{display:none!important;}
-            .hero-text-cell{display:table-cell!important;vertical-align:middle!important;width:52%!important;padding:0 16px 0 7px!important;background:#0d5129!important;border-radius:16px!important;}
-            .hero-image-cell{display:table-cell!important;vertical-align:middle!important;width:48%!important;padding:0!important;text-align:right!important;}
+            .hero-text-cell{display:table-cell!important;vertical-align:top!important;width:52%!important;padding:0 16px 0 7px!important;background:#0d5129!important;border-radius:16px!important;}
+            .hero-image-cell{display:table-cell!important;vertical-align:top!important;width:48%!important;padding:0!important;text-align:right!important;}
             .hero-products{width:100%!important;max-width:230px!important;height:auto!important;margin:0!important;}
             .hero-image-crop{height:auto!important;overflow:visible!important;border-radius:0!important;margin-top:0!important;}
             .hero-title{display:table!important;width:100%!important;height:100%!important;box-sizing:border-box!important;padding-top:0!important;font-size:18px!important;line-height:1.12!important;text-align:left!important;letter-spacing:-.3px!important;}
@@ -69,18 +69,29 @@
                 <div class="mobile-header" style="display:none;">
                   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                     <tr>
-                      <td width="48%" valign="middle" align="left">
+                      <td align="center" valign="middle">
                         <img class="mobile-header-logo"
                           src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/ecocane-logo.png"
                           width="145"
                           alt="eCo-Cane.GROUP"
-                          style="display:block;width:145px;max-width:100%;height:auto;margin:0;"
+                          style="display:block;width:145px;max-width:100%;height:auto;margin:0 auto;"
                         >
                       </td>
-                      <td width="52%" valign="middle" align="left">
+                    </tr>
+                    <tr>
+                      <td align="center" valign="middle">
                         <div class="mobile-header-slogan" style="display:none;">
                           Экологичная посуда и упаковка<br>для вашего бизнеса
                         </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="middle">
+                        <table class="mobile-header-rule" role="presentation" width="90" cellpadding="0" cellspacing="0" border="0" align="center" style="display:none;margin:10px auto 0;">
+                          <tr>
+                            <td height="2" style="height:2px;background:#39833e;font-size:0;line-height:0;">&nbsp;</td>
+                          </tr>
+                        </table>
                       </td>
                     </tr>
                   </table>
