@@ -16,3 +16,4 @@ Important
 - The original email markup uses presentation tables and inline styles for email-client compatibility.
 - The template has not yet been verified by sending tests through Gmail/Outlook.
 - The call-to-action button links to https://eco-cane.group/.
+tests 
