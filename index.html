@@ -17,6 +17,7 @@
           @media screen and (max-width:640px){
             .email-shell{width:100%!important;max-width:100%!important}
             .outer-pad{padding-left:18px!important;padding-right:18px!important}
+            .hero-background{padding:0!important;background-position:center center!important;background-size:cover!important;}
             .desktop-slogan{display:none!important;}
             .desktop-slogan-rule{display:none!important;}
 
@@ -26,7 +27,7 @@
             .mobile-header-slogan{display:block!important;text-align:center!important;padding:8px 0 0!important;font-family:Arial,Helvetica,sans-serif;color:#183e27;font-size:10px;line-height:14px;letter-spacing:1px;text-transform:uppercase;}
             .mobile-header-rule{display:table!important;width:90px!important;margin:10px auto 0!important;}
             .desktop-logo,.mobile-slogan,.mobile-slogan-rule{display:none!important;}
-            .hero-text-cell{display:table-cell!important;vertical-align:top!important;width:52%!important;padding:0 16px 0 7px!important;background:#0d5129!important;border-radius:16px!important;}
+            .hero-text-cell{display:table-cell!important;vertical-align:top!important;width:52%!important;padding:0 16px 0 7px!important;background:transparent!important;border-radius:0!important;}
             .hero-image-cell{display:table-cell!important;vertical-align:top!important;width:48%!important;padding:0!important;text-align:right!important;}
             .hero-products{width:100%!important;max-width:230px!important;height:auto!important;margin:0!important;}
             .hero-image-crop{height:auto!important;overflow:visible!important;border-radius:0!important;margin-top:0!important;}
@@ -65,7 +66,7 @@
           <table role="presentation" class="email-shell" width="640" cellpadding="0" cellspacing="0" border="0" style="width:640px;max-width:640px;background:#fbf9f2;">
             <!-- ШАПКА И ПЕРВЫЙ ЭКРАН -->
             <tr>
-              <td class="outer-pad" style="padding:3px 28px 8px;background:#fbf9f2;">
+              <td class="outer-pad hero-background" background="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/hero.png" style="padding:3px 0 8px;background-color:#fbf9f2;background-image:url(https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/hero.png);background-position:center center;background-repeat:no-repeat;background-size:cover;">
                 <div class="mobile-header" style="display:none;">
                   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                     <tr>
@@ -133,8 +134,8 @@
                         <span class="hero-highlight" 
                           style="display:inline-block;
                           padding:4px 10px;
-                          background-color:#e7bf05;
-                          border-radius:16px;
+                          background-color:transparent;
+                          border-radius:0;
                           color:#0d5129;
                           text-align:center;
                           font-size:41px;
@@ -155,17 +156,7 @@
                           </td>
                         </tr>
                       </table>
-                      <div class="hero-image-crop" style="height:225px;overflow:hidden;border-radius:16px;margin-top:46px;">
-                        <img class="hero-products" 
-                        src="https://raw.githubusercontent.com/blvllxlam/eCoCane_mail/main/images/hero-products.jpg" 
-                        width="270" 
-                        alt="Посуда и упаковка из растительных материалов" 
-                        style="display:block;
-                        width:270px;
-                        max-width:100%;
-                        height:auto;
-                        border-radius:16px;">
-                      </div>
+                      
                     </td>
                   </tr>
                 </table>
